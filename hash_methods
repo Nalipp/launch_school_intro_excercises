@@ -1,0 +1,12 @@
+=begin
+hash1 = {"name" => "bob", "hair" => "brown", "eyes" => "black"}
+
+hash1.each_key { |key| p key}
+hash1.each_value { |value| p value}
+hash1.each { |key, value| p "#{key}  #{value}"}
+=end
+
+=begin
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+puts person[:name]
+=end
